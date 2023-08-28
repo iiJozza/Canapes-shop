@@ -8,8 +8,7 @@
     box-sizing: border-box;
 }
 
-
-/*Header*/
+/* Header */
 header {
     background-color: lightgray;
     padding: 0 1rem;
@@ -18,14 +17,25 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+}
+
+.header-button {
+    background-color: rgba(255, 122, 89, .5);
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: 'Great Vibes', cursive, sans-serif;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1px;
 }
 
 h1 {
-    font-family: 'Great Vibes', sans-serif, cursive;
-    text-transform: capitalize;
-    
-
+    font-family: "Great vibes", cursive, sans-serif ;
 }
 
 /*Main content*/
