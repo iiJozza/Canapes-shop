@@ -1,0 +1,32 @@
+
+/* This style will apply to all elements on the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Header*/
+header {
+    background-color: lightgray;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/*Main content*/
+main {
+    background-color: bisque;
+}
+
+
+/*Footer*/
+footer {
+
+background-color: red;
+}
