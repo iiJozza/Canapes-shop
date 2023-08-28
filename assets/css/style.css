@@ -1,3 +1,5 @@
+/* Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 /* This style will apply to all elements on the page */
 * {
@@ -17,6 +19,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+
+h1 {
+    font-family: 'Great Vibes', sans-serif, cursive;
+    text-transform: capitalize;
+    
+
 }
 
 /*Main content*/
