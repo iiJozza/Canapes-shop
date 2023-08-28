@@ -1,32 +1,85 @@
 <!DOCTYPE html>
-
-<!--python3 -m http.server-->
-
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css"></link>
 
-    <title>Ms Hors D'oeuvre</title>
-  </head>
-  <body>
-    <h1>A lovely place to get a nice looking snack!</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">index</a>
-        </li>
-        <li>
-          <a href="coast.html">coast</a>
-        </li>
-      </ul>
-    </nav>
-    <section>
-        <figure>
-            <img src="assets/images/Afghan_cookie.jpg" alt="An image of a cookie">
-        </figure>
-    </section>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Meta tags for search engines -->
+    <meta name="description"
+        content="Canape shop. Buy canapes for good prices in Sweden, Stockholm. Catering offering small bite-size delicacies.">
+    <meta name="keywords" content="food, catering, canape, canapes, canape queen, delicious, catering shop, shop, buy,
+    catering östermalm, luxery eating, bite-size, ms hors douvre">
+    
+    
+    <!-- Title -->
+    <title>Ms Hors D'ouvre</title>
+    
+    
+    <!-- Favicon -->
+    <link rel="canape-icon" sizes="180x180" href="assets/images/canape-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+
+
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Ms Hors D'ouvre</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section id="hero"></section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
