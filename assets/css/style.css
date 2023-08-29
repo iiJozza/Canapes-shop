@@ -30,7 +30,6 @@ header a {
 .header-button {
     background-color: rgba(255, 122, 89, .25);
     color: black;
-    border: none;
     padding: 5px 10px;
     cursor: pointer;
     font-size: 30px;
@@ -39,9 +38,8 @@ header a {
     border: 2px solid rgba(232, 236, 241, .5);
     letter-spacing: 2px;
     
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 1px;
+    margin-top: auto; 
+    margin-bottom: auto;
 }
 
 h1 {
@@ -72,10 +70,13 @@ nav {
 
 #nav-toggle {
     display: none;
+
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-top: auto; 
+    margin-bottom: auto;
 }
 
 #menu {
@@ -102,7 +103,8 @@ nav {
 
 /*Main content*/
 main {
-    background-color: bisque;
+    background-color: blue;
+    flex: 1 0 auto;
 }
 
 
