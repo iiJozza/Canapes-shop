@@ -70,6 +70,14 @@ nav {
     display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 #menu {
     list-style-type: none;
     letter-spacing: 2px;
