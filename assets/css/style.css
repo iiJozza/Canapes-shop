@@ -9,6 +9,15 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
 /* Header */
 header {
     background-color: white;
@@ -49,6 +58,10 @@ h1 {
     font-size: 10px;
 }
 
+h2 {
+    font-family: "Great vibes", cursive, sans-serif ;
+    font-size: 40px;
+}
 /*The navigation menu*/
 
 nav {
@@ -83,7 +96,8 @@ nav {
     list-style-type: none;
     letter-spacing: 2px;
     text-transform: capitalize;
-    font-size: 110%;
+    font-size: 150%;
+    font-family: "Great vibes", cursive, sans-serif;
 }
 
 #menu:hover {
@@ -107,7 +121,8 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 1px;
+    margin-top: 51px;
+    text-align: center;
 }
 
 /* Hero Image*/
@@ -119,10 +134,27 @@ main {
     position: relative;
 }
 
+#cover-text {
+    margin-top: 10px;
+    padding: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
 
 
 /*Footer*/
-footer {
 
-background-color: red;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
