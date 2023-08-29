@@ -38,6 +38,7 @@ header a {
     border: 2px solid rgba(232, 236, 241, .5);
     letter-spacing: 2px;
     margin: auto;
+    text-align: center;
 
 }
 
@@ -60,8 +61,6 @@ nav {
     top:100%;
     box-shadow: 0 2px 2px #3a3a3a;
     text-align: center;
-    
-    
 
 }
 
@@ -109,6 +108,15 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 1px;
+}
+
+/* Hero Image*/
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image-mshd.webp") no-repeat center center/cover;
+    position: relative;
 }
 
 
