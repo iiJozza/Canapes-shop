@@ -10,17 +10,25 @@
 
 /* Header */
 header {
-    background-color: lightgray;
+    background-color: white;
     padding: 0 1rem;
     position: fixed;
     z-index: 99%;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgba(232, 236, 241, .5);
+    box-shadow: 0 2px rgba(232, 236, 241, .5);
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color:inherit;
 }
 
 .header-button {
-    background-color: rgba(255, 122, 89, .5);
+    background-color: rgba(255, 122, 89, .25);
     color: black;
     border: none;
     padding: 5px 10px;
@@ -28,6 +36,8 @@ header {
     font-size: 30px;
     border-radius: 5px;
     font-family: 'Great Vibes', cursive, sans-serif;
+    border: 2px solid rgba(232, 236, 241, .5);
+    letter-spacing: 2px;
     
     margin-top: 5px;
     margin-bottom: 5px;
@@ -36,7 +46,51 @@ header {
 
 h1 {
     font-family: "Great vibes", cursive, sans-serif ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
+
+/*The navigation menu*/
+
+nav {
+    position:absolute;
+    background-color: white;
+    width:50%;
+    right:0;
+    padding: 0 1rem;
+    display: none;
+    top:100%;
+    box-shadow:0px 2px 2px 2px  rgba(232, 236, 241, .5);
+    text-align: center;
+    
+
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#menu {
+    list-style-type: none;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 110%;
+}
+
+#menu:hover {
+    background-color: lightgray;
+}
+
+#menu > li {
+
+    margin-bottom: 1rem;
+}
+
+.active {
+    color: gray;
+}
+
+
 
 /*Main content*/
 main {
