@@ -1,4 +1,5 @@
 /* Google fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 /* This style will apply to all elements on the page */
@@ -13,12 +14,11 @@ header {
     background-color: white;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99%;
+    z-index: 99;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(232, 236, 241, .5);
-    box-shadow: 0 2px rgba(232, 236, 241, .5);
+    box-shadow: 0 2px 2px #3a3a3a;
     align-items: baseline;
 }
 
@@ -28,7 +28,7 @@ header a {
 }
 
 .header-button {
-    background-color: rgba(255, 122, 89, .25);
+    background-color: white;
     color: black;
     padding: 5px 10px;
     cursor: pointer;
@@ -37,15 +37,15 @@ header a {
     font-family: 'Great Vibes', cursive, sans-serif;
     border: 2px solid rgba(232, 236, 241, .5);
     letter-spacing: 2px;
-    
-    margin-top: auto; 
-    margin-bottom: auto;
+    margin: auto;
+
 }
 
 h1 {
     font-family: "Great vibes", cursive, sans-serif ;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 10px;
 }
 
 /*The navigation menu*/
@@ -58,8 +58,9 @@ nav {
     padding: 0 1rem;
     display: none;
     top:100%;
-    box-shadow:0px 2px 2px 2px  rgba(232, 236, 241, .5);
+    box-shadow: 0 2px 2px #3a3a3a;
     text-align: center;
+    
     
 
 }
@@ -101,11 +102,15 @@ nav {
 
 
 
-/*Main content*/
+
+/* Main content */
 main {
-    background-color: blue;
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 1px;
 }
+
 
 
 /*Footer*/
