@@ -98,8 +98,8 @@ nav {
     font-family: "Great vibes", cursive, sans-serif;
 }
 
-#menu:hover {
-    background-color: lightgray;
+#menu > :hover {
+    color: rgb(216, 34, 34);
 }
 
 #menu > li {
@@ -108,7 +108,8 @@ nav {
 }
 
 .active {
-    color: gray;
+    font-weight: bold;
+
 }
 
 
