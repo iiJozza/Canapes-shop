@@ -53,11 +53,17 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 10px;
+    color: black; /* Set the font color to black */
+    text-shadow: 2px 2px 0 white, -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white; /* Create a white outline */
 }
 
 h2 {
     font-family: "Great vibes", cursive, sans-serif ;
     font-size: 40px;
+    color: black;
+        /* Set the font color to black */
+    text-shadow: 2px 2px 0 white, -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white;
+        /* Create a white outline */
 }
 
 /*The navigation menu*/
@@ -117,7 +123,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: #fafafa;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 42px;
@@ -137,8 +143,8 @@ main {
 }
 
 #hero > h2, .comment-section > h2 {
-    text-decoration: underline;
     font-size: 50px;
+    color: black;
 }
 
 #cover-text {
@@ -153,7 +159,7 @@ main {
 #hero-shop {
     height: 200px;
     width: 100%;
-    background: url("../images/Hero-logo-shop.jpg") no-repeat center center/cover;
+    background: url("../images/Hero-logo-shop-2.png") no-repeat center center/cover;
     position: relative;
 
 }
