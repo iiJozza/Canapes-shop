@@ -143,11 +143,13 @@ main {
     width: 100%;
     background: url("../images/hero-image-mshd.webp") no-repeat right center/cover;
     position: relative;
+    justify-content: center;
+    
 }
 
 
 
-#hero > h2, .comment-section > h2 {
+#hero > h2, .feedback-section > h2 {
     font-size: 50px;
 }
 
@@ -155,7 +157,7 @@ main {
     margin-top: 10px;
     padding: auto;
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
 
 }
 
@@ -186,14 +188,21 @@ main {
     padding: 10px;
     transform: translate(-50%, -50%);
 }
+
+
 /* Comment section */
-.comment-section {
-    width: 80%;
+.feedback-section {
+    position: absolute;
+    width: 100%;
     margin: auto;
-    padding: 20px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
 }
 
-.comment-section > h2 {
+.feedback-section > h2 {
     margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 5px;
