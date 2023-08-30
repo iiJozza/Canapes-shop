@@ -132,6 +132,10 @@ main {
     position: relative;
 }
 
+#hero-shop {
+    background-color: #fafafa;
+}
+
 #hero > h2, .comment-section > h2 {
     text-decoration: underline;
     font-size: 50px;
@@ -199,8 +203,78 @@ button {
     cursor: pointer;
 }
 
+/* Shop items */
+
+.shop-canape-selection {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 90vw; /* To simulate container width */
+}
+
+#shop div {
+    color: #fafafa;
+    background-color: rgba(220, 204, 204, 0.6);
+    padding: 15px;
+    text-align: right;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid red;
+}
+
+
+/* Images for the shop*/
+#salmon-mousse {
+    background-image: url("../images/Salmon-mousse.jpg");
+    background-size: cover; 
+    background-position: left; 
+    background-repeat: no-repeat;
+    background-color: #fafafa;
+    background-size: 100% auto; /* Match the height of the box to the image */
+    background-position: left center;  
+}
+
+#salmon-roll-blini {
+    background-image: url("../images/Salmon-roll-blini.jpg");
+    background-size: cover; 
+    background-position: left; 
+    background-repeat: no-repeat;
+    background-color: #fafafa;  
+}
+
+#duck-liver-mousse {
+    background-image: url("../images/Duck-liver-mousse.jpg");
+    background-size: cover; 
+    background-position: left; 
+    background-repeat: no-repeat;
+    background-color: #fafafa;  
+}
+
+#goatscheese-filobasket {
+    background-image: url("../images/Filo-goats-cheese.jpg");
+    background-size: cover; 
+    background-position: left; 
+    background-repeat: no-repeat;
+    background-color: #fafafa; 
+}
+
+#white-chocolate-mousse {
+    background-image: url("../images/Lactos-free-white-mousse.jpg");
+    background-size: cover; 
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-color: #fafafa; 
+}
+
+/* #shop h3 {
+    Override the heading colour set in general styles
+} 
+*/
 
 /*Footer*/
+footer {
+    margin-top: auto;
+}
 
 #social-networks {
     text-align: center;
