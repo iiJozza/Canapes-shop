@@ -59,8 +59,8 @@ h2 {
     font-family: "Great vibes", cursive, sans-serif ;
     font-size: 40px;
 }
-/*The navigation menu*/
 
+/*The navigation menu*/
 nav {
     position:absolute;
     background-color: white;
@@ -124,8 +124,7 @@ main {
     text-align: center;
 }
 
-/* Hero Image*/
-
+/* Hero Index, Feedback*/
 #hero {
     height: 600px;
     width: 100%;
@@ -150,6 +149,25 @@ main {
 
 }
 
+/*Hero shop*/
+#hero-shop {
+    height: 200px;
+    width: 100%;
+    background: url("../images/Hero-logo-shop.jpg") no-repeat center center/cover;
+    position: relative;
+
+}
+
+#cover-text-shop {
+    background-color: rgba(232, 236, 241, .7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    min-height: 20px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
 /* Comment section */
 .comment-section {
     width: 80%;
