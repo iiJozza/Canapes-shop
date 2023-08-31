@@ -313,9 +313,6 @@ button {
 
 
 /*Footer*/
-footer {
-    margin-top: auto;
-}
 
 #social-networks {
     text-align: center;
@@ -329,4 +326,42 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 2rem;
+    }
+
+    #menu {
+        display: flex;         
+    }
+
+    #menu > li {
+        padding-left: 2rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+     /* Push main content down to accommodate larger header */
+        margin-top: 51px;
+    }
+
+
 }
