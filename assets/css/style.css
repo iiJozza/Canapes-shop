@@ -170,6 +170,7 @@ main {
 }
 
 /*Hero shop*/
+
 #hero-shop {
     height: 200px;
     width: 100%;
@@ -190,45 +191,50 @@ main {
 }
 
 
-/* Comment section */
+/* Review/Feedback section */
+
+#review {
+    display: flex;
+    flex-direction: column;
+}
+
 .feedback-section {
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    bottom: 0;
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.feedback-section > h2 {
-    margin-left: 1px;
-    margin-right: 1px;
-    margin-bottom: 5px;
-}
-
-
-.comment-list {
-    border-top: 1px solid #ccc;
-    padding-top: 5px;
-    margin-top: 5px;
-    font-family: "Great vibes", solid, sans-serif ;
-    font-size: 150%;
-}
-
-.comment {
-    border: 1opx solid #ccc;
-    padding: 10px;
+.feedback-section>h2 {
+    margin: 0;
     margin-bottom: 10px;
-    background-color: rgba(255,255,255,0.65);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Great vibes", cursive, sans-serif;
+    font-size: 1.5rem;
 }
 
 /* Comment form styling */
 
+.comment-list {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+}
+
 #comment-form {
-    margin-top: 1px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 #comment-input {
