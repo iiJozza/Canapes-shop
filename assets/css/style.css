@@ -36,12 +36,12 @@ header a {
 .header-button {
     background-color: white;
     color: black;
-    padding: 5px 10px;
+    padding: 10px;
     cursor: pointer;
     font-size: 30px;
     border-radius: 5px;
     font-family: 'Great Vibes', cursive, sans-serif;
-    border: 2px solid rgba(232, 236, 241, .5);
+    border: 2px solid rgba(232, 236, 241, 0.638);
     letter-spacing: 2px;
     margin: auto;
     text-align: center;
@@ -114,7 +114,6 @@ nav {
 
 
 
-
 /* Main content */
 main {
     background-color: #fafafa;
@@ -133,8 +132,6 @@ main {
     justify-content: center;
     
 }
-
-
 
 #hero > h2, .feedback-section > h2 {
     font-size: 50px;
@@ -176,6 +173,9 @@ main {
     padding: 10px;
     transform: translate(-50%, -50%);
 }
+
+/*Index text*/
+
 
 
 /* Review/Feedback section */
@@ -349,12 +349,6 @@ button {
 
     .nav-toggle-label {
         display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
     }
 
     /* Main content */
