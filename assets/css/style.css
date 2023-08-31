@@ -60,6 +60,11 @@ h1, h2, .feedback-text{
 
 }
 
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
 /*The navigation menu*/
 nav {
     position:absolute;
@@ -130,6 +135,7 @@ main {
     background: url("../images/hero-image-mshd.webp") no-repeat right center/cover;
     position: relative;
     justify-content: center;
+    display: flex;
     
 }
 
@@ -145,13 +151,6 @@ main {
 
 }
 
-#cover-text-test {
-    margin-top: 10px;
-    padding: auto;
-    padding-top: 200px;
-    padding-left: 10px;
-
-}
 
 /*Hero shop*/
 
@@ -176,7 +175,17 @@ main {
 
 /*Index text*/
 
+#info-text {
+    background-color: rgba(220, 204, 204, 0.6);
+}
 
+#info {
+    margin-top: 10px;
+    padding: auto;
+    padding: 200px 10% 10% 10%;
+    max-width: 400px;
+
+}
 
 /* Review/Feedback section */
 #review {
@@ -247,6 +256,16 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Thank you page*/
+
+#thank-you {
+    margin-top: 10px;
+    padding: auto;
+    padding: 200px 5rem 5rem 5rem;
+    max-width: 400px;
+}
+
 
 /* Shop items */
 
