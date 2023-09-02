@@ -14,6 +14,22 @@ body {
     flex-direction: column;
 }
 
+/*Text styles*/
+h1,
+h2,
+.feedback-text {
+    font-family: "Great vibes", cursive, sans-serif;
+    font-size: 40px;
+    color: rgb(255, 193, 202);
+    text-shadow: 1.2px 1.2px 0 rgb(0, 0, 0), 1.2px -1.2px 0 black;
+    font-weight: 100;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
 /* Header */
 header {
     background-color: white;
@@ -44,23 +60,6 @@ header a {
     letter-spacing: 2px;
     margin: auto;
     text-align: center;
-}
-
-/*Edited h1*/
-h1,
-h2,
-.feedback-text {
-    font-family: "Great vibes", cursive, sans-serif;
-    font-size: 40px;
-    color: rgb(255, 193, 202);
-    text-shadow: 1.2px 1.2px 0 rgb(0, 0, 0), 1.2px -1.2px 0 black;
-    font-weight: 100;
-
-}
-
-p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
 }
 
 /*The navigation menu*/
@@ -160,6 +159,14 @@ main {
     border-top: #3a3a3a;
 }
 
+#events-list {
+    margin-top: 10px;
+}
+
+#events > h2 {
+    display: none;
+}
+
 /*Images in index*/
 
 #circle-student {
@@ -202,10 +209,6 @@ main {
     justify-content: center;
 }
 
-img {
-    max-width: 100%;
-}
-
 /*Hero for the shop*/
 
 #hero-shop {
@@ -232,6 +235,7 @@ img {
 
 #review {
     position: absolute;
+    margin-top: 10px;
     padding-top: 10px;
 }
 
@@ -299,8 +303,6 @@ button {
     cursor: pointer;
 }
 
-
-
 /* Shop items */
 
 .shop-canape-selection {
@@ -308,7 +310,6 @@ button {
     flex-wrap: wrap;
     align-content: flex-start;
     width: 90vw;
-    /* To simulate container width */
 }
 
 #shop div {
@@ -394,7 +395,6 @@ button {
     /* Main content */
 
     main {
-        /* Push main content down to accommodate larger header */
         margin-top: 66px;
     }
 
@@ -410,11 +410,24 @@ button {
 
     #info-text {
         width: 300px;
-        right: 30px;
-
+        right: 30px;        
     }
 
+    #event-right, #event-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
+    #event-right > div,
+    #event-left > div  {
+        width: 75%;
+    }
+
+    #event-right > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 
     h1,
     h2,
