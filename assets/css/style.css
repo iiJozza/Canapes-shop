@@ -119,6 +119,12 @@ main {
     text-align: center;
 }
 
+/*Images in index*/
+
+img {
+    max-width: 100%;
+}
+
 /* Hero Index, Feedback*/
 #hero {
 
@@ -194,6 +200,7 @@ main {
     padding-left: 2rem;
     padding-top: 10px;
     padding-bottom: 10px;
+    bottom: 10px;
 }
 
 .feedback-section>h2 {
@@ -248,14 +255,6 @@ button {
     cursor: pointer;
 }
 
-/* Thank you page*/
-
-#thank-you {
-    margin-top: 10px;
-    padding: auto;
-    padding: 200px 5rem 5rem 5rem;
-    max-width: 400px;
-}
 
 
 /* Shop items */
@@ -320,6 +319,15 @@ button {
     background-position: left;
     background-repeat: no-repeat;
     background-color: #fafafa;
+}
+
+/* Thank you page*/
+
+#thank-you {
+    margin-top: 10px;
+    padding: auto;
+    padding: 200px 5rem 5rem 5rem;
+    max-width: 400px;
 }
 
 /*Footer*/
