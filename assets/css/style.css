@@ -1,5 +1,4 @@
 /* Google fonts*/
-
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 /* This style will apply to all elements on the page */
@@ -30,7 +29,7 @@ header {
 
 header a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
 
 .header-button {
@@ -45,18 +44,17 @@ header a {
     letter-spacing: 2px;
     margin: auto;
     text-align: center;
-
 }
 
 /*Edited h1*/
-h1, h2, .feedback-text{
-
+h1,
+h2,
+.feedback-text {
     font-family: "Great vibes", cursive, sans-serif;
     font-size: 40px;
     color: rgb(255, 193, 202);
     text-shadow: 1.2px 1.2px 0 rgb(0, 0, 0), 1.2px -1.2px 0 black;
     font-weight: 100;
-
 
 }
 
@@ -67,16 +65,15 @@ p {
 
 /*The navigation menu*/
 nav {
-    position:absolute;
+    position: absolute;
     background-color: white;
-    width:50%;
-    right:0;
+    width: 50%;
+    right: 0;
     padding: 0 1rem;
     display: none;
-    top:100%;
+    top: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     text-align: center;
-
 }
 
 #nav-toggle:checked~nav {
@@ -85,17 +82,15 @@ nav {
 
 #nav-toggle {
     display: none;
-
 }
 
 .nav-toggle-label {
     font-size: 2.5rem;
-    margin-top: auto; 
+    margin-top: auto;
     margin-bottom: auto;
 }
 
 #menu {
-
     list-style-type: none;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -103,21 +98,17 @@ nav {
     font-family: "Great vibes", cursive, sans-serif;
 }
 
-#menu > :hover {
+#menu> :hover {
     color: rgb(216, 34, 34);
 }
 
-#menu > li {
-
+#menu>li {
     margin-bottom: 1rem;
 }
 
 .active {
     font-weight: bold;
-
 }
-
-
 
 /* Main content */
 main {
@@ -130,27 +121,37 @@ main {
 
 /* Hero Index, Feedback*/
 #hero {
+
     height: 100vh;
     width: 100%;
-    background: url("../images/hero-image-mshd.webp") no-repeat right center/cover;
+    background: url("../images/hero-image-mshd.webp") no-repeat center center/cover;
     position: relative;
     justify-content: center;
     display: flex;
-    
+
 }
 
-#hero > h2, .feedback-section > h2 {
+#hero>h2,
+.feedback-section>h2 {
     font-size: 50px;
 }
 
-#cover-text {
+#info-text {
     margin-top: 10px;
     padding: auto;
-    padding-top: 20px;
     padding-left: 20px;
+    background-color: rgba(220, 204, 204, 0.6);
 
 }
 
+#info {
+    margin-top: 10px;
+    padding: auto;
+    padding-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
 
 /*Hero shop*/
 
@@ -173,19 +174,8 @@ main {
     transform: translate(-50%, -50%);
 }
 
-/*Index text*/
 
-#info-text {
-    background-color: rgba(220, 204, 204, 0.6);
-}
 
-#info {
-    margin-top: 10px;
-    padding: auto;
-    padding: 200px 10% 10% 10%;
-    max-width: 400px;
-
-}
 
 /* Review/Feedback section */
 #review {
@@ -218,7 +208,6 @@ main {
 }
 
 /* Comment form styling */
-
 .comment-list {
     border-top: 1px solid #ccc;
     margin-top: 20px;
@@ -273,7 +262,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    width: 90vw; /* To simulate container width */
+    width: 90vw;
+    /* To simulate container width */
 }
 
 #shop div {
@@ -286,53 +276,51 @@ button {
     border: 2px solid red;
 }
 
-
 /* Images for the shop*/
 #salmon-mousse {
     background-image: url("../images/Salmon-mousse.jpg");
-    background-size: cover; 
-    background-position: left; 
+    background-size: cover;
+    background-position: left;
     background-repeat: no-repeat;
     background-color: #fafafa;
-    background-size: 100% auto; /* Match the height of the box to the image */
-    background-position: left center;  
+    background-size: 100% auto;
+    /* Match the height of the box to the image */
+    background-position: left center;
 }
 
 #salmon-roll-blini {
     background-image: url("../images/Salmon-roll-blini.jpg");
-    background-size: cover; 
-    background-position: left; 
+    background-size: cover;
+    background-position: left;
     background-repeat: no-repeat;
-    background-color: #fafafa;  
+    background-color: #fafafa;
 }
 
 #duck-liver-mousse {
     background-image: url("../images/Duck-liver-mousse.jpg");
-    background-size: cover; 
-    background-position: left; 
+    background-size: cover;
+    background-position: left;
     background-repeat: no-repeat;
-    background-color: #fafafa;  
+    background-color: #fafafa;
 }
 
 #goatscheese-filobasket {
     background-image: url("../images/Filo-goats-cheese.jpg");
-    background-size: cover; 
-    background-position: left; 
+    background-size: cover;
+    background-position: left;
     background-repeat: no-repeat;
-    background-color: #fafafa; 
+    background-color: #fafafa;
 }
 
 #white-chocolate-mousse {
     background-image: url("../images/Lactos-free-white-mousse.jpg");
-    background-size: cover; 
-    background-position: left; 
-    background-repeat: no-repeat; 
-    background-color: #fafafa; 
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #fafafa;
 }
 
-
 /*Footer*/
-
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -359,10 +347,10 @@ button {
     }
 
     #menu {
-        display: flex;         
+        display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 2rem;
     }
 
@@ -372,8 +360,19 @@ button {
 
     /* Main content */
     main {
-     /* Push main content down to accommodate larger header */
+        /* Push main content down to accommodate larger header */
         margin-top: 51px;
+    }
+
+
+    /*Hero image change*/
+    #hero {
+        height: 100vh;
+        width: 100%;
+        background: url("../images/Hero-large.jpg") no-repeat center center/cover;
+        position: relative;
+        justify-content: center;
+        display: flex;
     }
 
 
