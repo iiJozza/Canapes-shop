@@ -19,10 +19,9 @@ body {
 
 /*Text styles*/
 h1,
-h2,
-.feedback-text {
+h2{
     font-family: "Great vibes", cursive, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(255, 193, 202);
     text-shadow: 1.2px 1.2px 0 rgb(0, 0, 0), 1.2px -1.2px 0 black;
     font-weight: 100;
@@ -57,7 +56,8 @@ header a {
     color: inherit;
 }
 
-.header-button {
+/*Temp Logo*/
+h4 {
     background-color: white;
     color: black;
     padding: 10px;
@@ -65,10 +65,10 @@ header a {
     font-size: 30px;
     border-radius: 5px;
     font-family: 'Great Vibes', cursive, sans-serif;
-    border: 2px solid rgba(232, 236, 241, 0.638);
     letter-spacing: 2px;
     margin: auto;
     text-align: center;
+    font-weight: 100;
 }
 
 /*The navigation menu*/
@@ -123,7 +123,7 @@ main {
     background-color: rgba(226, 64, 64, 0.6);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 64px;
+    margin-top: 58px;
     text-align: center;
 }
 
@@ -314,6 +314,8 @@ main {
     text-shadow: 1.2px 1.2px 0 rgb(0, 0, 0), 1.2px -1.2px 0 black;
     font-weight: 100;
 }
+
+
 
 /* Comment form styling */
 
