@@ -119,21 +119,15 @@ main {
     text-align: center;
 }
 
-/*Images in index*/
-
-img {
-    max-width: 100%;
-}
-
 /* Hero Index, Feedback*/
 #hero {
-
     height: 600px;
     width: 100%;
     background: url("../images/hero-image-mshd.webp") no-repeat center center/cover;
     position: relative;
-
 }
+
+/*Index*/
 
 #hero>h2,
 .feedback-section>h2 {
@@ -161,6 +155,11 @@ img {
     border-radius: 10px;
 }
 
+/*Images in index*/
+
+img {
+    max-width: 100%;
+}
 
 /*Hero shop*/
 
@@ -187,6 +186,7 @@ img {
 
 
 /* Review/Feedback section */
+
 #review {
     position: absolute;
     padding-top: 10px;
@@ -218,6 +218,7 @@ img {
 }
 
 /* Comment form styling */
+
 .comment-list {
     border-top: 1px solid #ccc;
     margin-top: 20px;
@@ -278,6 +279,7 @@ button {
 }
 
 /* Images for the shop*/
+
 #salmon-mousse {
     background-image: url("../images/Salmon-mousse.jpg");
     background-size: cover;
@@ -331,6 +333,7 @@ button {
 }
 
 /*Footer*/
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -348,6 +351,7 @@ button {
 @media screen and (min-width: 768px) {
 
     /* Header */
+
     nav {
         display: block;
         position: relative;
@@ -369,6 +373,7 @@ button {
     }
 
     /* Main content */
+
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 66px;
@@ -376,6 +381,7 @@ button {
 
 
     /*Hero image change*/
+
     #hero {
         height: 100vh;
         width: 100%;
@@ -396,6 +402,4 @@ button {
         color: rgb(255 210 217);
         text-shadow: 1.2px 1.2px 0 rgb(0, 0, 0), 1.2px -1.2px 0 rgb(0, 0, 0);
     }
-
-
 }
