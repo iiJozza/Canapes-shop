@@ -1,8 +1,11 @@
 /* Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Great+Vibes&family=Quicksand:wght@300;400&display=swap');
+
+
 
 /* This style will apply to all elements on the page */
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,9 +28,15 @@ h2,
     font-weight: 100;
 }
 
+h3 {
+    font-family: "Great vibes", cursive, sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+
+}
+
 p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* Header */
@@ -118,22 +127,45 @@ main {
     text-align: center;
 }
 
-/* Hero Index, Feedback*/
+/* Hero Index, Feedback, Thanks*/
 #hero {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url("../images/hero-image-mshd.webp") no-repeat center center/cover;
     position: relative;
 }
 
+#hero-feedback {
+    height: 800px;
+    width: 100%;
+    background: url("../images/hero-image-mshd.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-thanks {
+    height: 700px;
+    width: 100%;
+    background: url("../images/MS2.png") no-repeat center center/cover;
+    position: relative;
+    opacity: 0.9;
+}
+
 /*Index*/
 
-#hero>h2,
-.feedback-section>h2 {
+#hero > h2,
+.feedback-section > h2 {
+    font-size: 50px;
+;
+}
+
+/*Index*/
+
+#hero > h2,
+.feedback-section > h2 {
     font-size: 50px;
 }
 
-#info-text>h1,
+#info-text > h1,
 #info-text>p {
     color: rgb(255 210 217);
     text-shadow: none;
@@ -171,7 +203,7 @@ main {
 /*Images in index*/
 
 #circle-student {
-    background: url('../images/sdtudent-party.jpg') no-repeat top center / cover;
+    background: url('../images/sdtudent-party.jpg') no-repeat center center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -183,7 +215,7 @@ main {
 }
 
 #circle-wedding {
-    background: url('../images/wedding.jpg') no-repeat top center / cover;
+    background: url('../images/wedding.jpg') no-repeat center center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -195,7 +227,7 @@ main {
 }
 
 #circle-after-work {
-    background: url('../images/after-work.jpg') no-repeat top center / cover;
+    background: url('../images/after-work.jpg') no-repeat center center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -351,13 +383,25 @@ button {
 
 /* Thank you page*/
 
+#main-thanks {
+
+    background-color: #fafafa;
+}
+
 #thank-you {
-    margin-top: 10px;
-    padding: 200px 5rem 5rem 5rem;
-    max-width: 400px;
+    
+    padding: 200px 2rem 2rem 2rem;
+}
+
+#thank-you-text {
+    
+    background-color: rgba(226, 64, 64, 0.6);
+    border-radius: 95%;
+
 }
 
 /*Footer*/
+
 
 #social-networks {
     text-align: center;
@@ -401,12 +445,13 @@ button {
 
     main {
         margin-top: 66px;
+        position: relative;
     }
 
 
     /*Hero image change*/
 
-    #hero {
+    #hero, #hero-feedback, #hero-thanks {
         height: 100vh;
         width: 100%;
         background: url("../images/Hero-large.jpg") no-repeat center center/cover;
@@ -439,22 +484,39 @@ button {
         display: flex;
         flex-direction: column;
         width: 100%;
-        /* Adjust the width as needed */
         text-align: end;
         align-self: flex-end;
     }
 
     .event-right > h2 {
         font-size: 500%;
+        padding-left: 5rem;
+        padding-right: 2rem;
     }
     .event-left > h2 {
         font-size: 500%;
+        padding-right: 5rem;
+        padding-left: 2rem;
+    }
+
+    .event-right > p {
+        font-size: 200%;
+        padding-left: 5rem;
+        padding-right: 2rem;
+    }
+    
+    .event-left > p {
+        font-size: 200%;
+        color:black;
+        padding-right: 5rem;
+        padding-left: 2rem;
     }
 
     #circle-student, #circle-wedding, #circle-after-work { 
         max-width: 70%; 
         max-height: 400px;
         margin: 20px
+
 
     }
 
