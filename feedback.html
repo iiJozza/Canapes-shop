@@ -1,111 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
     <!-- Meta tags for search engines -->
-    <meta name="description"
-        content="Canape shop. Buy canapes for good prices in Sweden, Stockholm. Catering offering small bite-size delicacies.">
-    <meta name="keywords" content="food, catering, canape, canapes, canape queen, delicious, catering shop, shop, buy,
-    catering östermalm, luxery eating, bite-size, ms hors douvre">
-    
-    
+    <meta
+      name="description"
+      content="Canape shop. Buy canapes for good prices in Sweden, Stockholm. Catering offering small bite-size delicacies."
+    />
+    <meta
+      name="keywords"
+      content="food, catering, canape, canapes, canape queen, delicious, catering shop, shop, buy,
+    catering östermalm, luxery eating, bite-size, ms hors douvre"
+    />
+
     <!-- Title -->
     <title>Ms Hors D'ouvre</title>
-    
-    
+
     <!-- Favicon -->
-    <link rel="canape-icon" sizes="180x180" href="assets/favicon/canape-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link
+      rel="canape-icon"
+      sizes="180x180"
+      href="assets/favicon/canape-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
 
-
-    
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <button class="header-button">Ms</button>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="feedback.html" class="active">Feedback</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <button class="header-button">Ms</button>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="feedback.html" class="active">Feedback</a></li>
+        </ul>
+      </nav>
     </header>
-
 
     <!-- Main content -->
     <main>
+      <!-- Hero section -->
+      <section id="hero">
+        <div id="cover-text">
+          <h2></h2>
+        </div>
 
-        <!-- Hero section -->
-        <section id="hero">
-            <div id="cover-text">
-                <h2></h2>
+        <!-- Review/feedback section -->
+        <div id="Review">
+          <h2>Reviews</h2>
+          <div class="temp-comments">
+            <div class="comment">
+              <p>Really enjoyed the food!</p>
             </div>
-
-            <!-- Review/feedback section -->
-            <div id="Review">
-                <h2>Reviews</h2>
-                <div class="temp-comments">
-                    <div class="comment">
-                        <p>Really enjoyed the food!</p>
-                    </div>
-                    <div class="comment">
-                        <p>Not only was the canapes pretty, they were delicious as well. I did not think they could be 
-                        as good as they looked. But colour me surprised!
-                        </p>
-                    </div>
-                </div>
-
-                <div class="feedback-section">
-                    <label for="feedback-section" id="feedback-text">
-                        <h2>Your feedback is always welcome</h2>
-                    </label>
-                    <form id="comment-form" action="thanks.html">
-                        <textarea id="comment-input" name="comment-input" placeholder="Write a comment..." rows="10" cols="20"></textarea>
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
+            <div class="comment">
+              <p>
+                Not only was the canapes pretty, they were delicious as well. I
+                did not think they could be as good as they looked. But colour
+                me surprised!
+              </p>
             </div>
-        </section>
+          </div>
 
+          <div class="feedback-section">
+            <label for="feedback-section" id="feedback-text">
+              <h2>Your feedback is always welcome</h2>
+            </label>
+            <form id="comment-form" action="thanks.html">
+              <textarea
+                id="comment-input"
+                name="comment-input"
+                placeholder="Write a comment..."
+                rows="10"
+                cols="20"
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
-
 
     <!-- Footer -->
     <footer>
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com/canapequeen/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
-            </li>  
-            <li>
-                <a href="https://www.instagram.com/canapequeen.se/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com/canapequeen/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/canapequeen.se/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
 
-
     <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/3b20d96fa9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
