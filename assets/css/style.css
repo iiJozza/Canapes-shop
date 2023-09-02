@@ -97,11 +97,11 @@ nav {
     font-family: "Great vibes", cursive, sans-serif;
 }
 
-#menu> :hover {
+#menu > :hover {
     color: rgb(216, 34, 34);
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1rem;
 }
 
@@ -111,7 +111,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: #fafafa;
+    background-color: rgba(226, 64, 64, 0.6);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 64px;
@@ -120,7 +120,7 @@ main {
 
 /* Hero Index, Feedback*/
 #hero {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url("../images/hero-image-mshd.webp") no-repeat center center/cover;
     position: relative;
@@ -161,6 +161,7 @@ main {
 
 #events-list {
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 #events > h2 {
@@ -178,6 +179,7 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    box-shadow: 0 3px 3px #3a3a3a;
 }
 
 #circle-wedding {
@@ -189,6 +191,7 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 #circle-after-work {
@@ -200,6 +203,7 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 .index-image {
@@ -207,6 +211,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 /*Hero for the shop*/
@@ -407,26 +412,50 @@ button {
         background: url("../images/Hero-large.jpg") no-repeat center center/cover;
         position: relative
     }
+    
+    /*index text*/
+
+    #events {
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        display: flex;
+    }
 
     #info-text {
         width: 300px;
         right: 30px;        
     }
 
-    #event-right, #event-left {
+    .event-left {
         display: flex;
         flex-direction: column;
         width: 100%;
-    }
-
-    #event-right > div,
-    #event-left > div  {
-        width: 75%;
-    }
-
-    #event-right > div {
+            /* Adjust the width as needed */
+        }
+    
+    .event-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* Adjust the width as needed */
         text-align: end;
         align-self: flex-end;
+    }
+
+    .event-right > h2 {
+        font-size: 500%;
+    }
+    .event-left > h2 {
+        font-size: 500%;
+    }
+
+    #circle-student, #circle-wedding, #circle-after-work { 
+        max-width: 70%; 
+        max-height: 400px;
+        margin: 20px
+
     }
 
     h1,
@@ -435,6 +464,6 @@ button {
         font-family: "Great vibes", cursive, sans-serif;
         font-size: 40px;
         color: rgb(255 210 217);
-        text-shadow: 1.2px 1.2px 0 rgb(0, 0, 0), 1.2px -1.2px 0 rgb(0, 0, 0);
+        text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0);
     }
 }
