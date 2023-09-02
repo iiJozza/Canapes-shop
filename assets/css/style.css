@@ -122,7 +122,7 @@ main {
 /* Hero Index, Feedback*/
 #hero {
 
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url("../images/hero-image-mshd.webp") no-repeat center center/cover;
     position: relative;
@@ -185,6 +185,7 @@ main {
 #review {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 }
 
 .feedback-section {
@@ -193,8 +194,8 @@ main {
     margin: auto;
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .feedback-section>h2 {
@@ -215,7 +216,6 @@ main {
 .comment-list {
     border-top: 1px solid #ccc;
     margin-top: 20px;
-    padding-top: 10px;
 }
 
 .comment {
@@ -228,7 +228,7 @@ main {
 }
 
 #comment-form {
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
 }
 
