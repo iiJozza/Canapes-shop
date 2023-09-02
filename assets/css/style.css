@@ -201,6 +201,8 @@ main {
     border-radius: 10px;
 }
 
+/*Content index*/
+
 #events {
     border-top: #3a3a3a;
 }
@@ -315,8 +317,6 @@ main {
     font-weight: 100;
 }
 
-
-
 /* Comment form styling */
 
 .comment-list {
@@ -356,46 +356,43 @@ button {
     cursor: pointer;
 }
 
-/* Shop items */
+/* Shop content */
 
-.shop-canape-selection {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    width: 90vw;
+#shop {
+
 }
 
-#shop div {
-    color: #fafafa;
-    background-color: rgba(220, 204, 204, 0.6);
-    padding: 15px;
-    text-align: right;
-    flex-basis: 200px;
-    flex-grow: 1;
-    border: 2px solid red;
+#shop-list {
+
 }
 
-/* Images for the shop*/
-
-#salmon-mousse {
-    
-    background: url("../images/border-ms.png");
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-color: #fafafa;
-    background-size: 100% auto;
-    /* Match the height of the box to the image */
-    background-position: left center;
+nav {
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    right: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    text-align: center;
 }
 
-#salmon-roll-blini {}
+#salmon-toggle:checked~nav {
+    display: block;
+}
 
-#duck-liver-mousse {}
+#salmon-toggle {
+    display: none;
+}
 
-#goatscheese-filobasket {}
+.salmon-toggle-label {
+    font-size: 2.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
-#white-chocolate-mousse {}
+
 
 /* Thank you page*/
 
@@ -552,4 +549,61 @@ button {
         color: rgb(255 210 217);
         text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0);
     }
+
+    #shop {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: flex;
+    }
+
+    .shop-left {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            /* Adjust the width as needed */
+    }
+
+    .shop-right {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            text-align: end;
+            align-self: flex-end;
+        }
+    
+    .shop-right>h2 {
+            font-size: 500%;
+            padding-left: 5rem;
+            padding-right: 2rem;
+        }
+    
+    .shop-left>h2 {
+            font-size: 500%;
+            padding-right: 5rem;
+            padding-left: 2rem;
+        }
+    
+    .shop-right>p {
+            font-size: 200%;
+            padding-left: 5rem;
+            padding-right: 2rem;
+        }
+    
+    .shop-left>p {
+            font-size: 200%;
+            color: black;
+            padding-right: 5rem;
+            padding-left: 2rem;
+        }
+
+    #shop {
+            border-top: #3a3a3a;
+        }
+
+    #shop-list {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
 }
