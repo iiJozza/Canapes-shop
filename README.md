@@ -86,6 +86,11 @@ An overview of all my existing features, what I want to improve and features I w
 - WAVE
   - Some minor issues but nothing major arose. The page is accomodated for individuals with sight impairments. [Wave validator](https://wave.webaim.org/report#/https://iijozza.github.io/Canapes-shop)
 
+### Unfixed Bugs
+
+- Found a bug where the feedback textarea would cover the comments if the width is longer than 768px but the height shorther than 555px.
+  - I didn't fix this bug due to time constraints
+ 
 ### Features Left to Implement
 
 Unfortunately there is a lot that I would love to implement and redo, but due to time constraint can't. 
@@ -110,6 +115,7 @@ Unfortunately there is a lot that I would love to implement and redo, but due to
   - Consistent hero image. Currently there are a two which is very confusing and can cause people to back out of the site due to not recognising the background.
 
 - Feedback
+  - Push the title down a bit. 
   - My feedback page is unfortunately not that resposive and the feedback section goes into the comments if you reduces the screen height. 
   - I want to implement a real comment section where comments show up in real-time with their names attached to them. The styling is also something I would change but have no ideas as of yet.
   - Comments should have the reply option 
