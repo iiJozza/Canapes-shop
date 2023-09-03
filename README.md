@@ -26,21 +26,21 @@ An overview of all my existing features, what I want to improve and features I w
   - The text showcases the company's branding style and brings focus to the products, the company's vision and their luxury-orientated concept.
 
 
-![Landing Page](https://imgur.com/a/4ZK0g5v)
+![Landing Page](https://github.com/iiJozza/Canapes-shop/blob/main/assets/images-readme/pictures-hero.png)
 
 - __The Events Section__
 
   - The events section lets the uninformed user know the best occasion to buy canapes.
   - This will give the user a push when organising get-togethers or a larger events. This section is intended to give inspiration on ways to prepare and impress ones guests with a high quality option.
 
-![Events](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Events](https://github.com/iiJozza/Canapes-shop/blob/main/assets/images-readme/readme-event-photo.png)
 
 - __The Footer__
 
   - In the footer section, you will find links to Ms hors d'oeuvre's associated social media platforms. These links are designed to open in a new tab for convenient user navigation.
   - The footer links are useful tools to redirect engagment to the page via social media. 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/iiJozza/Canapes-shop/blob/main/assets/images-readme/readme-footer.PNG)
 
 - __The Shop__
 
@@ -48,7 +48,7 @@ An overview of all my existing features, what I want to improve and features I w
   - The images of our inventory provides the user inspiration for their event and suggest what may best suit their purposes.
   - It also showcases the chef's craftmanship and artistry. 
 
-![Shop](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Shop](https://github.com/iiJozza/Canapes-shop/blob/main/assets/images-readme/readme-shop.PNG)
 
 - __The Feedback Page__
 
@@ -56,13 +56,14 @@ An overview of all my existing features, what I want to improve and features I w
   - This gives the user piece of mind when buying products from a new provider.
   - The likelyhood of coming back to the page increases if the option to comment is available. This drives traffic (via reviews/comments) and also inspires new purchases and future engagment.
 
-![Feedback](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Feedback](https://github.com/iiJozza/Canapes-shop/blob/main/assets/images-readme/readme-feedback.PNG)
 
 - __The Thank You Page__
 
   - This page gives confirmation to the user that their comment has been accepted and received.
   - This allows the customer to feel that their opinions matter and are appreciated which opens up to an overall more positive experience.
 
+![Feedback](https://github.com/iiJozza/Canapes-shop/blob/main/assets/images-readme/readme-feedback.PNG)
 
 ## Testing
 
