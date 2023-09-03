@@ -371,8 +371,8 @@ button {
     width: 100%;
 }
 
-#shop-list {
-
+#shop > h5 {
+    display: none;
 }
 
 nav {
@@ -385,20 +385,6 @@ nav {
     top: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     text-align: center;
-}
-
-#salmon-toggle:checked~nav {
-    display: block;
-}
-
-#salmon-toggle {
-    display: none;
-}
-
-.salmon-toggle-label {
-    font-size: 2.5rem;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 /* Thank you page*/
@@ -525,7 +511,7 @@ nav {
 
     .event-right > h2, .event-left > h2 {
         font-size: 500%;
-        padding-left: 5rem;
+        padding-left: 2rem;
         padding-right: 2rem;
     }
 

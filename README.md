@@ -1,39 +1,82 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ms Hors D'oeuvre
 
-Welcome,
+Ms hors d'oeuvre is a site that brings catering to an easily navigatable site where people can see 
+what are offered and to what price. This will also make ordering much easier and lets the existing and new costumers have a hub of sorts instead of going to multiple sites. Having multiple steps in your ordering process gives the customer more time to reconsider and therefore not order anything. An example of this is going to instagram for the food/reviews and sending an email to order which makes the ordering process more time consuming. And time is not something people want to waste.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsice Mockup](https://imgur.com/a/kMkrzTN)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+## Features
 
-## Codeanywhere Reminders
+An overview of all my existing features, what I want to improve and features I want to imlpement in the future. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+- __The Navigation Bar__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - Identical on all pages and offers an easy way to navigate the different main portions of the site -- Home, Shop and Feedback.
+  - The current page text on the navigationbar will get bold when current and red when hovered over. This makes it much easier for the user to understand where in the website they are.
+  - Different navigation bars depending on size of screen.   
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Nav Bar](https://imgur.com/a/P89NW61)
 
-`http_server`
+- __The Landing Page__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The landing page image on mobile gives the user a more playful feeling and lets the user know that they can expect a more artistic experience with their food.  
+  - The image offered on larger screens is more inviting and gives a more direct feeling that this webpage is about food.
+  - The text showcases the branding of the company and also that what is offered is on luxury.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Landing Page](https://imgur.com/a/4ZK0g5v)
 
-To log into the Heroku toolbelt CLI:
+- __The Events Section__
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - The events section lets the uninformed user know the best occation to buy canapes.
+  - This will give the user a push when organising a get-together or a larger event to buy the products that are offfered in order to impress their guests.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Events](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
----
+- __The Footer__
 
-Happy coding!
+  - In the footer section, you will find links to Ms hors d'oeuvre's associated social media platforms. These links are designed to open in a new tab for convenient user navigation.
+  - The footer links are useful tools to redirect engagment to the page via social media. 
+
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+
+- __The Shop__
+
+  - The shop gives the user a large selection of what is offered. 
+  - The images of our inventory will give the user more security and also ideas of what can suit their event best. It also showcases the craftmanship and the expertise that the chefs posses.
+
+
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+- __The Feedback Page__
+
+  - This page will allow the user express their opinions of their experience and read previous ones.
+  - This makes the user more comfortable to buy the products and eases the worry that it won't be as presented as in the shop.
+  - The likelyhood of coming back to the page increases, driving traffic and also inspiring new purchases will go up due to more engagment via reviews/comments.
+
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+- __The Thank You Page__
+
+  - This page gives confirmation to the user that their comment has been accepted and seen
+  - Makes the user know that thier opinion matters and that it has been sent. Making their experiencce with the site a bit more positive
+
+
+## Testing
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
