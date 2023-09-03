@@ -63,8 +63,6 @@ An overview of all my existing features, what I want to improve and features I w
   - This page gives confirmation to the user that their comment has been accepted and received.
   - This allows the customer to feel that their opinions matter and are appreciated which opens up to an overall more positive experience.
 
-![Feedback](https://github.com/iiJozza/Canapes-shop/blob/main/assets/images-readme/readme-feedback.PNG)
-
 ## Testing
 
 - I have tested the site by going through the different aspect ratioes provided in devtools.
@@ -130,3 +128,30 @@ Unfortunately there is a lot that I would love to implement and redo, but due to
   - I want to implement a new "about us page" as well where it describes its journey, present the workers and shows all its accolades.
   - A page where you pay for what you have selected in the shop.
 
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+## Credits
+
+Here is all the materials I used for my project.
+
+### Content
+
+- The fonts used throughout the website is taken from [Google fonts](https://fonts.google.com/?preview.text=Ms%20Hors%20D%27ourve&preview.text_type=custom)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Content inspired by the Love Running tutorial on code institute [Course literature](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) 
+
+### Media
+
+- The photos used on the home page is from (https://unsplash.com/)
+  - Image for afterwork is by Marten Bjork and taken from here: (https://unsplash.com/photos/6dW3xyQvcYE)
+  - Image of the wedding ring is by Beatriz Pérez Moya and taken from here: (https://unsplash.com/photos/M2T1j-6Fn8w)
+  - Image of the student party is by Priscilla Du Preez and taken from here: (https://unsplash.com/photos/W3SEyZODn8U)
+- The images used for the landing image is from (https://stocksnap.io/) and (https://www.mshorsdoeuvre.se/)
+  - Image of the hero section for mobil is made by Salma Nasreldin and is available on (https://www.icanvas.com/)
+  - Image of the hero image for webpages is by Mali Maeder and is available on (<https://stocksnap.io/photo/food-ingredient-FRG8VCQFP2>)
+- The images used for the gallery is from Canape Queen and can be found on (<https://www.instagram.com/canapequeen.se/>)
