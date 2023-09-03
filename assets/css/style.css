@@ -372,7 +372,7 @@ button {
 }
 
 #shop-list {
-    
+
 }
 
 nav {
@@ -430,6 +430,18 @@ nav {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #shop {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+    #shop-main {
+        background-color: white;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -511,15 +523,10 @@ nav {
         align-self: flex-end;
     }
 
-    .event-right > h2 {
+    .event-right > h2, .event-left > h2 {
         font-size: 500%;
         padding-left: 5rem;
         padding-right: 2rem;
-    }
-    .event-left > h2 {
-        font-size: 500%;
-        padding-right: 5rem;
-        padding-left: 2rem;
     }
 
     .event-right > p {
@@ -549,4 +556,10 @@ nav {
         color: rgb(255 210 217);
         text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0);
     }
+
+    /*Shop*/
+
+    #shop {
+        column-count: 3;
+     }
 }
