@@ -66,6 +66,15 @@ An overview of all my existing features, what I want to improve and features I w
 
 ## Testing
 
+- I have tested the site by going through the different aspect ratioes provided in devtools.
+- Changing the size of the browser manually.
+- Browsers I have tested on is microsoft edge, chrome, mi browser, safari and mozilla firefox without much differnece.
+  - In the mi browser the background color and the text color changed for the homepage.
+- I have tested it by using different phones.
+  - Iphone 11, Redmi 8, Laptop and a Large Wide Screen (Unfortunately I don't have the meassurments).  
+- Using different validators for all the html and css pages.
+-  
+
 ### Validator Testing
 
 - HTML
@@ -88,7 +97,7 @@ Unfortunately there is a lot that I would love to implement and redo, but due to
   - The image should also go down in opacity after 70% of the image revealing the price/10. 
   - Scaling the images to be the same sizes in the shop
   - Add more images to the site that is what is currently on the menu. 
-- 
+  - Add a shoppingcart icon that sticks to the bottom right of the page that lets you buy the things you have selected
 
 - Footer
   - Currently the foot is very bare. I want to implement a contect list with email, telefonnumber, name of the company and adress with a google maps embedded. 
@@ -103,6 +112,7 @@ Unfortunately there is a lot that I would love to implement and redo, but due to
 - Feedback
   - My feedback page is unfortunately not that resposive and the feedback section goes into the comments if you reduces the screen height. 
   - I want to implement a real comment section where comments show up in real-time with their names attached to them. The styling is also something I would change but have no ideas as of yet.
+  - Comments should have the reply option 
 
 - Deleting The Thank You Page
   - There is no reason to have a page like that if the feedback controlls that aspect.
@@ -110,6 +120,7 @@ Unfortunately there is a lot that I would love to implement and redo, but due to
 - New Pages
   - I want to add a real gallery. How it looks now is ok, but I want it to have a more apealing look to it. It is very boring at the moment.
   - I want to implement a new history page as well where it describes its journey and shows all its accolades 
+  - A page where you pay for what you have selected in the shop.  
 
 - Adding a real icon to the site.
 
