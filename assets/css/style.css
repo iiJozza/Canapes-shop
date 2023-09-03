@@ -22,7 +22,7 @@ body {
 h1,
 h2{
     font-family: "Great vibes", cursive, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(255, 193, 202);
     text-shadow: 1.2px 1.2px 0 rgb(0, 0, 0), 1.2px -1.2px 0 black;
     font-weight: 100;
@@ -412,7 +412,7 @@ nav {
 }
 
 #thank-you-text {
-    background-color: rgba(226, 64, 64, 0.6);
+    background-color: rgba(226, 64, 64, 0.8);
     border-radius: 95%;
 }
 
@@ -471,7 +471,7 @@ nav {
     /* Main content */
 
     main {
-        margin-top: 66px;
+        margin-top: 64px;
         position: relative;
     }
 
