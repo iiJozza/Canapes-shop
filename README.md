@@ -3,7 +3,7 @@
 Ms hors d'oeuvre is a site that brings catering to an easily navigatable site where people can see 
 what is on offer and to what price. This will also make ordering much easier and leads existing and new customers to their own "hub", instead of going to multiple sites. Having multiple steps in your ordering process opens the opportunity for the customer to reconsider and consequentially or order nothing. An example of this is going to instagram for the food/reviews and as an extra step place an email order, which makes the ordering process more time consuming. And time is not something people want to waste.
 
-![Responsice Mockup](https://imgur.com/a/kMkrzTN)
+![Responsive Mockup](https://github.com/iiJozza/Canapes-shop/blob/main/assets/Images-readme/readme-mockup.png)
 
 ## Features
 
@@ -128,3 +128,4 @@ Unfortunately there is a lot that I would love to implement and redo, but due to
   - I want to add a real gallery. How it looks now is ok, but I want it to have a more apealing look to it.
   - I want to implement a new "about us page" as well where it describes its journey, present the workers and shows all its accolades.
   - A page where you pay for what you have selected in the shop.
+
