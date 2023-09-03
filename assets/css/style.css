@@ -18,6 +18,7 @@ body {
 }
 
 /*Text styles*/
+
 h1,
 h2{
     font-family: "Great vibes", cursive, sans-serif;
@@ -31,7 +32,6 @@ h3 {
     font-family: "Great vibes", cursive, sans-serif;
     font-size: 60px;
     font-weight: 100;
-
 }
 
 p {
@@ -39,6 +39,7 @@ p {
 }
 
 /* Header */
+
 header {
     background-color: white;
     padding: 0 1rem;
@@ -57,6 +58,7 @@ header a {
 }
 
 /*Temp Logo*/
+
 h4 {
     background-color: white;
     color: black;
@@ -72,6 +74,7 @@ h4 {
 }
 
 /*The navigation menu*/
+
 nav {
     position: absolute;
     background-color: white;
@@ -119,6 +122,7 @@ nav {
 }
 
 /* Main content */
+
 main {
     background-color: rgba(226, 64, 64, 0.6);
     /* Make main element take up any surplus space to push footer down */
@@ -128,6 +132,7 @@ main {
 }
 
 /* Hero Index, Feedback, Thanks*/
+
 #hero {
     height: 600px;
     width: 100%;
@@ -283,7 +288,6 @@ main {
     transform: translate(-50%, -50%);
 }
 
-
 /* Review/Feedback section */
 
 #review {
@@ -359,11 +363,16 @@ button {
 /* Shop content */
 
 #shop {
+    line-height: 0;
+}
 
+#shop img {
+    line-height: 1em;
+    width: 100%;
 }
 
 #shop-list {
-
+    
 }
 
 nav {
@@ -392,29 +401,22 @@ nav {
     margin-bottom: auto;
 }
 
-
-
 /* Thank you page*/
 
 #main-thanks {
-
     background-color: #fafafa;
 }
 
 #thank-you {
-    
     padding: 200px 2rem 2rem 2rem;
 }
 
 #thank-you-text {
-    
     background-color: rgba(226, 64, 64, 0.6);
     border-radius: 95%;
-
 }
 
 /*Footer*/
-
 
 #social-networks {
     text-align: center;
@@ -537,8 +539,6 @@ nav {
         max-width: 70%; 
         max-height: 400px;
         margin: 20px
-
-
     }
 
     h1,
@@ -549,61 +549,4 @@ nav {
         color: rgb(255 210 217);
         text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0);
     }
-
-    #shop {
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    display: flex;
-    }
-
-    .shop-left {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            /* Adjust the width as needed */
-    }
-
-    .shop-right {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            text-align: end;
-            align-self: flex-end;
-        }
-    
-    .shop-right>h2 {
-            font-size: 500%;
-            padding-left: 5rem;
-            padding-right: 2rem;
-        }
-    
-    .shop-left>h2 {
-            font-size: 500%;
-            padding-right: 5rem;
-            padding-left: 2rem;
-        }
-    
-    .shop-right>p {
-            font-size: 200%;
-            padding-left: 5rem;
-            padding-right: 2rem;
-        }
-    
-    .shop-left>p {
-            font-size: 200%;
-            color: black;
-            padding-right: 5rem;
-            padding-left: 2rem;
-        }
-
-    #shop {
-            border-top: #3a3a3a;
-        }
-
-    #shop-list {
-            margin-top: 10px;
-            margin-left: 10px;
-        }
 }
