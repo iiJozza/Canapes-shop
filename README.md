@@ -17,7 +17,7 @@ An overview of all my existing features, what I want to improve and features I w
   - The current page is displayed on the navigation bar in bold text and when hovered over the text turns red. This makes it much easier for the user to understand where in the website they are positioned.
   - Different navigation bars have been created depending on and to accomodate for various screensizes.
 
-![Nav Bar](https://imgur.com/a/P89NW61)
+![Nav Bar](https://github.com/iiJozza/Canapes-shop/blob/main/assets/images-readme/nav-bar.png)
 
 - __The Landing Page__
 
@@ -48,7 +48,7 @@ An overview of all my existing features, what I want to improve and features I w
   - The images of our inventory provides the user inspiration for their event and suggest what may best suit their purposes.
   - It also showcases the chef's craftmanship and artistry. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Shop](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __The Feedback Page__
 
@@ -56,7 +56,7 @@ An overview of all my existing features, what I want to improve and features I w
   - This gives the user piece of mind when buying products from a new provider.
   - The likelyhood of coming back to the page increases if the option to comment is available. This drives traffic (via reviews/comments) and also inspires new purchases and future engagment.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Feedback](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __The Thank You Page__
 
