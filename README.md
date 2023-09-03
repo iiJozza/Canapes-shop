@@ -15,15 +15,15 @@ An overview of all my existing features, what I want to improve and features I w
 
   - Identical on all pages and offers  easy navigation to the different portions of the site -- Home, Shop and Feedback.
   - The current page is displayed on the navigation bar in bold text and when hovered over the text turns red. This makes it much easier for the user to understand where in the website they are positioned.
-  - Different navigation bars have been created depending on and to accomodated various screensizes.
+  - Different navigation bars have been created depending on and to accomodate for various screensizes.
 
 ![Nav Bar](https://imgur.com/a/P89NW61)
 
 - __The Landing Page__
 
-  - The landing page image for mobiles provides the user with a playful feeling and enables them to experience food with an artistic content.  
+  - The landing page image for mobiles introduces the user to a playful wibe and enables them to experience food with artistic content.  
   - The image offered on larger screens is more inviting and gives a more direct feeling that this webpage is about food.
-  - The text showcases the company's branding style and also that the products and concept is luxury-orientated.
+  - The text showcases the company's branding style and brings focus to the products, the company's vision and their luxury-orientated concept.
 
 
 ![Landing Page](https://imgur.com/a/4ZK0g5v)
@@ -31,7 +31,7 @@ An overview of all my existing features, what I want to improve and features I w
 - __The Events Section__
 
   - The events section lets the uninformed user know the best occasion to buy canapes.
-  - This will give the user a push when organising get-togethers or a larger events. This section is intended to give inspiration on ways to prepare and impress their guests.
+  - This will give the user a push when organising get-togethers or a larger events. This section is intended to give inspiration on ways to prepare and impress ones guests with a high quality option.
 
 ![Events](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
@@ -45,7 +45,7 @@ An overview of all my existing features, what I want to improve and features I w
 - __The Shop__
 
   - The shop gives the user a large selection of what is offered. 
-  - The images of our inventory provides the user inspiration for their event and suggest what may best suit their event.
+  - The images of our inventory provides the user inspiration for their event and suggest what may best suit their purposes.
   - It also showcases the chef's craftmanship and artistry. 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
@@ -53,7 +53,7 @@ An overview of all my existing features, what I want to improve and features I w
 - __The Feedback Page__
 
   - This page allows the user the opportunity to express their opinions, rate their experience and read previous customer responses.
-  - This gives the user piece of mind when buying products with a new provider.
+  - This gives the user piece of mind when buying products from a new provider.
   - The likelyhood of coming back to the page increases if the option to comment is available. This drives traffic (via reviews/comments) and also inspires new purchases and future engagment.
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
@@ -68,17 +68,16 @@ An overview of all my existing features, what I want to improve and features I w
 
 - I have tested the site by going through the different aspect ratioes provided in devtools.
 - Changing the size of the browser manually.
-- Browsers I have tested on is microsoft edge, chrome, mi browser, safari and mozilla firefox without much differnece.
-  - In the mi browser the background color and the text color changed for the homepage.
+- Browsers I have tested on is microsoft edge, chrome, mi browser, safari and mozilla firefox without it differing too much.
+  - In the mi browser the background color and the text color changed. Though readabilty is unaffected.
 - I have tested it by using different phones.
-  - Iphone 11, Redmi 8, Laptop and a Large Wide Screen (Unfortunately I don't have the meassurments).  
+  - Iphone 11, Redmi 8, Laptop and a Large Wide Screen (Unfortunately I don't have the measurements).  
 - Using different validators for all the html and css pages.
--  
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fiijozza.github.io%2FCanapes-shop%2F)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
@@ -90,43 +89,42 @@ An overview of all my existing features, what I want to improve and features I w
 
 - Found a bug where the feedback textarea would cover the comments if the width is longer than 768px but the height shorther than 555px.
   - I didn't fix this bug due to time constraints
- 
-### Features Left to Implement
+- Found a bug in mi browser where some pink text changed to white and the background color changed from white to black.
+  - I am not sure how I can change this as it is possibly due to the phones dark mode.
+
+## Features Left to Implement
 
 Unfortunately there is a lot that I would love to implement and redo, but due to time constraint can't. 
 
 - Shop Improvements
-  - One of the major implementetion I would do is to change the whole shop page. It is a gallery currently but I tried to make an interactive shop before I understood it was not possible at the current time. The idea I had was that the food items would align underneath each other one by one (2 by 2 or 3 by 3 on larger sceeens)
-  - Clicking the picture opens up a dropdown list revealing the ingredienses.
-  - On top of each image would be a title of the food item and a small icon if it was either gluten-free, vegan, vegeterian or lactos-free. 
-  - The image should also go down in opacity after 70% of the image revealing the price/10. 
-  - Scaling the images to be the same sizes in the shop
-  - Add more images to the site that is what is currently on the menu. 
-  - Add a shoppingcart icon that sticks to the bottom right of the page that lets you buy the things you have selected
+  - One of the major implementations I would do is to change the whole shop page. It is currently more of a gallery but I tried to make an interactive shop before I understood it was not possible due to lack of time. The idea I had was that the food items would align underneath each other one by one (2 by 2 or 3 by 3 on larger sceeens)
+  - Clicking the picture would open up a dropdown list revealing the ingrediences.
+  - Add a title on top of each image and a small icon that provides information if it's gluten-free, vegan, vegeterian and/or lactos-free. 
+  - The image should also go down in opacity after 70% of the image width, revealing the price/10. 
+  - Scaling the images to be the same sizes in the shop.
+  - Add more images to the site that is currently on the menu. 
+  - Add a shopping cart icon that sticks to the bottom right of the page and lets you buy the things you have selected.
 
 - Footer
-  - Currently the foot is very bare. I want to implement a contect list with email, telefonnumber, name of the company and adress with a google maps embedded. 
+  - Currently the footer is very bare. I want to implement a contact list with email, telefonnumber, name of the company and adress with a google maps embedded. 
 
 - Index
-  - I wanted the images in the event section to go zig-zag on larger screens, making the site more apealing.
+  - I wanted the images in the event section to go zig-zag on larger screens, making the site more appealing.
   
 - Hero image
-  - I accidently downloaded the wrong size for my background image making it stretch way too much on screen-sizes larger than mobile since the height was so much longer than the width.
+  - I accidently downloaded the wrong size for my background image making it stretch way too much on screen-sizes larger than mobiles, since the height of said image is so much longer than the width.
   - Consistent hero image. Currently there are a two which is very confusing and can cause people to back out of the site due to not recognising the background.
 
 - Feedback
   - Push the title down a bit. 
-  - My feedback page is unfortunately not that resposive and the feedback section goes into the comments if you reduces the screen height. 
+  - My feedback page is unfortunately not that resposive and the feedback section goes into the comments if you reduce the screen height below 555px. 
   - I want to implement a real comment section where comments show up in real-time with their names attached to them. The styling is also something I would change but have no ideas as of yet.
-  - Comments should have the reply option 
+  - Comments should have the option to reply. 
 
 - Deleting The Thank You Page
-  - There is no reason to have a page like that if the feedback controlls that aspect.
+  - There is no reason to have a page like that if the feedback page controls that issue.
 
 - New Pages
-  - I want to add a real gallery. How it looks now is ok, but I want it to have a more apealing look to it. It is very boring at the moment.
-  - I want to implement a new history page as well where it describes its journey and shows all its accolades 
-  - A page where you pay for what you have selected in the shop.  
-
-- Adding a real icon to the site.
-
+  - I want to add a real gallery. How it looks now is ok, but I want it to have a more apealing look to it.
+  - I want to implement a new "about us page" as well where it describes its journey, present the workers and shows all its accolades.
+  - A page where you pay for what you have selected in the shop.
